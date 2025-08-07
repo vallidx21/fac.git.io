@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACEBOOK</title>
+<link rel="stylesheet" href="fac.css">
+
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; font-weight: normal;">
+         
+            <div>
+                <header id="top">
+                    <h1> Facebook   </h1> </header>
+            </div>
+                
+            
+            <div  class="container" > 
+                <section  class="access">
+                    <h2> Create a new account</h2>
+                    <p> it's quick and easy</p>
+                </section>
+              <hr>
+                <form>
+                    <section >
+                    <input type="text" class="text-control" name="First name" placeholder="firstname" required> 
+                      
+                    <input type="text"  name="Surname" class="text-control" placeholder="Surname" required>
+                    </section>
+                   
+                   
+                <span  >
+                    Date of Birth <br>
+                    <label for="day">  
+                        <input type="number" name="birthday" id="dropdown" class="date-control" min="1" max="31">
+                    </label>
+
+                    <label for="month">
+                        <select name="role" id="dropdown" class="month-control">
+                        <option value="january">january</option>
+                        <option value="February"> February</option>
+                        <option value="March"> March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </label>
+
+                   
+                    <label for="Year">  
+                        <input type="number" name="year" id="dropdown" class="year" min="1905" max="2025">
+                    </label>
+
+                </span>
+
+
+                <span >
+                    <div> Gender </div>
+                    <div id="gender-contol">
+                        <label> Male 
+                        <input type="radio" name="gender" value="male"  id="gender-contol" > </label>
+        <label> Female
+             <input type="radio" name="gender" value="female" id="gender-contol"></label>
+        <label>
+             Custom <input type="radio" name="gander" value="other" id="gender-contol"></label> <br>
+                </span>
+            </div>
+
+                <span class="mail-control" >
+                    <input type="text" name="mobile" placeholder="mobile number or email address"  id="emailsec" required> 
+                      <br>
+                    <input type="text" name="Password" placeholder="Password"   pattern=".{5,10}" id="passwordsec" required> 
+                </span>
+
+                <div>
+                    <p> people who uses our service may have uploaded your contact information to faceboook. <a href="#">learn more</a> </p>
+    
+                    <p>By clicking sign up. you agree to our  <a href="#">Terms, policy and cookies policy.</a><br>  
+                     you may receive SMS notification from us and can opt out at any time </p>
+                </div>
+                
+                <div class="submitbutton">
+                <input type="submit" value="Sign Up" class="center-button" >
+               
+                    <a href="#"> Already have an account? </a>
+                </div>
+               
+                </div>
+            </form>
+            
+</body>
+</html>
